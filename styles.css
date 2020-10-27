@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+.header{
+    display:flex;
+    background-color: #44C19C;
+    height: 80px;
+    
+}
+
+.header div{
+    margin: 26px auto 26px 26px;
+}
+.header div > a{
+    color: #693030;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;   
+    
+}
+
+.nav ul{
+    display: flex;
+    margin: 26px 26px 26px auto;
+    
+}
+.nav li{
+    padding: 10px;
+}
+.nav ul li a{
+    font-size: 18px;
+    color:#E9E7E7;
+}
+.nav ul li #home{
+    color:#B911F3;
+}
+.aside{
+    display: flex;
+    background-image: url('./jonasdash.svg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.aside #oi{
+    margin: 200px auto 450px 175px;
+    
+}
+.aside h1{
+    color: #B911F3;
+    font-size: 72px;
+}
+.aside h5{
+    font-size: 18px;
+}
+.aside #eu{
+    color: #44C19C;
+}
+.aside #ui{
+    color:#693030;
+}
+
+.me{ 
+    background-color: rgba(73, 62, 62, 0.95);
+    color:#E9E7E7;
+    text-align: center;
+   
+    padding: 30px;
+    font-size: 48px;
+    
+    
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(73, 62, 62, 0.95);
+    height: 680px;
+    
+}
+.about img{
+    margin-left: 30px;
+    
+}
+
+.about .text{
+    
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+.about .text h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #E9E7E7;
+    font-size: 36px;
+    font-style: bold;
+}
+
+.about .text h4{
+    color:#44C19C;
+    font-size: 18px;
+}
+.about .text p{
+    color: #FFFFFF;
+    font-size: 18px;
+    
+}
+
+.about-me{
+    background-color:#493E3E;
+    color:#E9E7E7;
+    text-align: center;
+    padding: 30px;
+    font-size: 48px;
+    
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./poligono.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:#493E3E;
+    height: 340px;
+
+}
+
+.section .skill{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section .skill img{
+    padding: 20px;
+}
+
+.trabalhos{
+    height: 680px;
+    text-align: center;
+    background-color: rgba(73, 62, 62, 0.95);
+}
+
+.trabalhos h1{
+    padding: 30px;
+    color: #E9E7E7;
+    font-size: 48px;
+}
+
+.trabalhos img{
+    padding: 20px;
+    
+}
+
+.contato{
+    text-align: center;
+    background-color: #493E3E;
+    color: #E9E7E7;
+    padding: 30px;
+    font-size: 48px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    height: 340px;
+    background-color: #493E3E;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px;
+    
+}
+
+.redes .formula{
+    margin-right: 100px;
+    color: #44C19C;
+    padding: 15px;
+}
+.redes .formula form label{
+    margin-bottom: 20px;
+}
+.redes .formula form input{
+    border-radius: 20px;
+
+}
+.redes .socias{
+    margin-left: 150px;
+}
+.sociais img{
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color:  #2E2A2A;
+    padding: 30px;
+    height: 80px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
